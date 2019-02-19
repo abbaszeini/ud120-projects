@@ -20,7 +20,8 @@ from email_preprocess import preprocess
 ### and testing datasets, respectively
 ### labels_train and labels_test are the corresponding item labels
 features_train, features_test, labels_train, labels_test = preprocess()
-
+clf = GaussianNB()
+clf.fit(features_train, features_test)
 
 
 
