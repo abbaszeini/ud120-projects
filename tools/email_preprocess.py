@@ -4,7 +4,8 @@ import pickle
 import cPickle
 import numpy
 
-from sklearn import cross_validation
+#from sklearn import cross_validation
+from sklearn import modelselection 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_selection import SelectPercentile, f_classif
 
